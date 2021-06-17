@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="main">
+        <div class="main-next">
+                <div class="table">
+                    <div class="togh">
+                        <input type = "button" class="reset-btn" value = "RESET"/>
+                        <div class="rand">
+                        <button class="random-btn">RANDOM</button>
+                    </div>
+                        <button class="accept-btn">ZATWIERDZ</button>
+                        
+                        
+                         </div>
+                        <div class="text">
+                            <form id = "myForm" action = "#"  > 
+                       <div class="one"> <p>AX</p><input type="text" id="AX"></input><p>AH</p><input type="text" id="AH"></input><p>AL</p><input type="text" id ="AL"></input><br> </div> 
+                       <div class="two"> <p>BX</p><input  type="text" id="BX"></input><p>BH</p><input type="text" id="BH"></input><p>BL</p><input type="text" id="BL"></input><br></div>
+                       <div class="three"> <p>CX</p><input type="text" id="CX"></input><p>CH</p><input type="text" id="CH"></input><p>CL</p><input type="text" id="CL"></input><br></div>
+                       <div class="four"> <p>DX</p><input type="text" id="DX"></input><p>DH</p><input type="text" id="DH"></input><p>DL</p><input type="text" id="DL"></input><br></div>
+                         </div>
+                        </form>
+                         <div class="moves">
+                        <div class="lineOne"><button class="mov1">MOV AX,BX</button><button class="chg1">XCHG AX,BX</button>   &nbsp <button class="AH1">MOV AH,AX</button><button class="AL1">MOV AL,AX</button></div>
+                        <div class="lineTwo"><button class="mov2">MOV AX,CX</button><button class= "chg2" >XCHG AX,CX</button> &nbsp<button class="AH2">MOV AH,BX</button><button class="AL2">MOV AL,BX</button></div>
+                        <div class="lineThree"><button class="mov3">MOV AX,DX</button><button class= "chg3">XCHG AX,DX</button> &nbsp<button class="AH3">MOV AH,CX</button><button class="AL3">MOV AL,CX</button></div>
+                        <div class="lineFour"><button class="mov4">MOV BX,AX</button><button class= "chg4">XCHG BX,AX</button> &nbsp<button class="AH4">MOV AH,DX</button><button class="AL4">MOV AL,DX</button></div>
+                        <div class="lineFive"><button class="mov5">MOV BX,CX</button><button class= "chg5">XCHG BX,CX</button> &nbsp<button class="BH1">MOV BH,AX</button><button class="BL1">MOV BL,AX</button></div>
+                        <div class="lineSix"><button class="mov6">MOV BX,DX</button><button class= "chg6">XCHG BX,DX</button> &nbsp<button class="BH2">MOV BH,BX</button><button class="BL2">MOV BL,BX</button></div>
+                        <div class="lineSeven"><button class="mov7">MOV CX,AX</button><button class= "chg7">XCHG CX,AX</button> &nbsp<button class="BH3">MOV BH,CX</button><button class="BL3">MOV BL,CX</button></div>
+                        <div class="lineEight"><button class="mov8">MOV CX,BX</button><button class= "chg8">XCHG CX,BX</button> &nbsp<button class="BH4">MOV BH,DX</button><button class="BL4">MOV BL,DX</button></div>
+                        <div class="lineNine"><button class="mov9">MOV CX,DX</button><button class= "chg9">XCHG CX,DX</button> &nbsp<button class="CH1">MOV CH,AX</button><button class="CL1">MOV CL,AX</button></div>
+                        <div class="lineTen"><button class="mov10">MOV DX,AX</button><button class= "chg10">XCHG DX,AX</button> &nbsp<button class="CH2">MOV CH,BX</button><button class="CL2">MOV CL,BX</button></div>
+                        <div class="lineEleven"><button class="mov11">MOV DX,BX</button><button class= "chg11">XCHG DX,BX</button> &nbsp<button class="CH3">MOV CH,CX</button><button class="CL3">MOV CL,CX</button></div>
+                        <div class="lineTwelf"><button class="mov12">MOV DX,CX</button><button class= "chg12">XCHG DX,CX</button> &nbsp<button class="CH4">MOV CH,DX</button><button class="CL4">MOV CL,DX</button></div>
+                        <div class="other">
+                        <div><button class="DH1">MOV DH,AX</button><button class="DL1">MOV DL,AX</button></div>
+                        <div><button class="DH2">MOV DH,BX</button><button class="DL2">MOV DL,BX</button></div>
+                        <div><button class="DH3">MOV DH,CX</button><button class="DL3">MOV DL,CX</button></div>
+                        <div><button class="DH4">MOV DH,DX</button><button class="DL4">MOV DL,DX</button></div>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="table2">
+                   <div class="inputOne"> <input type="checkbox" name="checkbox"> z rejestru pamieci <br>
+                    <input type="checkbox" name="checkbox"> z pameici do rejestru
+                </div>
+                    <br>
+                    <br>
+                    <br>
+
+                     <input type="checkbox" name="checkbox"> indeksowy <br>
+                     <input type="checkbox" name="checkbox"> bazowy <br>
+                     <input type="checkbox" name="checkbox"> indeksowo-bazowy <br>
+                     <br>
+                     <br>
+                     <br>
+ 
+                      <input type="checkbox" name="checkbox"> SI <br>
+                      <input type="checkbox" name="checkbox"> DI
+                      <br>
+                      <br>
+                      <br>
+  
+                       <input type="checkbox" name="checkbox"> SI I BX
+                       <br>
+                       <input type="checkbox" name="checkbox"> DI I BX <br>
+                       <input type="checkbox" name="checkbox"> SI I BP <br>
+                       <input type="checkbox" name="checkbox"> DI I BP <br>
+                       <br>
+                       <br>  <br>
+                       <br>
+                       <p class="passinfo"></p>
+                       <p class="passinfo2"></p>
+
+                </div>
+        </div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
